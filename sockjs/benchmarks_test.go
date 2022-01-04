@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 func BenchmarkSimple(b *testing.B) {
