@@ -1,6 +1,6 @@
-[![Build Status](https://api.travis-ci.org/igm/sockjs-go.svg?branch=master)](https://travis-ci.org/igm/sockjs-go) 
-[![GoDoc](https://godoc.org/github.com/igm/sockjs-go/v3/sockjs?status.svg)](https://pkg.go.dev/github.com/igm/sockjs-go/v3/sockjs?tab=doc) 
-[![Coverage Status](https://coveralls.io/repos/github/igm/sockjs-go/badge.svg?branch=master)](https://coveralls.io/github/igm/sockjs-go?branch=master)
+[![Build Status](https://api.travis-ci.org/dhx71/sockjs-go.svg?branch=master)](https://travis-ci.org/dhx71/sockjs-go) 
+[![GoDoc](https://godoc.org/github.com/dhx71/sockjs-go/v3/sockjs?status.svg)](https://pkg.go.dev/github.com/dhx71/sockjs-go/v3/sockjs?tab=doc) 
+[![Coverage Status](https://coveralls.io/repos/github/dhx71/sockjs-go/badge.svg?branch=master)](https://coveralls.io/github/dhx71/sockjs-go?branch=master)
 
 What is SockJS?
 =
@@ -19,24 +19,24 @@ SockJS-Go is a [SockJS](https://github.com/sockjs/sockjs-client) server library 
 
 For latest **v3** version of `sockjs-go` use:
 
-    github.com/igm/sockjs-go/v3/sockjs
+    github.com/dhx71/sockjs-go/v3/sockjs
 
 For **v2** version of `sockjs-go` use:
 
-    gopkg.in/igm/sockjs-go.v2/sockjs
+    gopkg.in/dhx71/sockjs-go.v2/sockjs
 
 Using version **v1** is not recommended (DEPRECATED)
 
-    gopkg.in/igm/sockjs-go.v1/sockjs
+    gopkg.in/dhx71/sockjs-go.v1/sockjs
 
-Note: using `github.com/igm/sockjs-go/sockjs` is not recommended. It exists for backwards compatibility reasons and is not maintained. 
+Note: using `github.com/dhx71/sockjs-go/sockjs` is not recommended. It exists for backwards compatibility reasons and is not maintained. 
 
 Versioning
 -
 
-SockJS-Go project adopted [gopkg.in](http://gopkg.in) approach for versioning. SockJS-Go library details can be found [here](https://gopkg.in/igm/sockjs-go.v2/sockjs)
+SockJS-Go project adopted [gopkg.in](http://gopkg.in) approach for versioning. SockJS-Go library details can be found [here](https://gopkg.in/dhx71/sockjs-go.v2/sockjs)
 
-With the introduction of go modules a new version `v3` is developed and maintained in the `master` and has new import part `github.com/igm/sockjs-go/v3/sockjs`. 
+With the introduction of go modules a new version `v3` is developed and maintained in the `master` and has new import part `github.com/dhx71/sockjs-go/v3/sockjs`. 
 
 Example
 -
@@ -51,7 +51,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/igm/sockjs-go/v3/sockjs"
+	"github.com/dhx71/sockjs-go/v3/sockjs"
 )
 
 func main() {

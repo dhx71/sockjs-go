@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/dhx71/sockjs-go/v3/sockjs"
 	"github.com/igm/pubsub"
-	"github.com/igm/sockjs-go/v3/sockjs"
 )
 
 var chat pubsub.Publisher

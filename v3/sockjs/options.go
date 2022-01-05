@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 var (
@@ -41,7 +41,7 @@ type Options struct {
 	// This option can be used to enable raw websockets support by the server. By default raw websockets are disabled.
 	RawWebsocket bool
 	// Provide a custom Upgrader for Websocket connections to enable features like compression.
-	// See https://godoc.org/github.com/gorilla/websocket#Upgrader for more details.
+	// See https://godoc.org/github.com/dhx71/websocket#Upgrader for more details.
 	WebsocketUpgrader *websocket.Upgrader
 	// WebsocketWriteTimeout is a custom write timeout for Websocket underlying network connection.
 	// A zero value means writes will not time out.

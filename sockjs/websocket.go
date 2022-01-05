@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 // WebSocketReadBufSize is a parameter that is used for WebSocket Upgrader.
-// https://github.com/gorilla/websocket/blob/master/server.go#L230
+// https://github.com/dhx71/websocket/blob/master/server.go#L230
 var WebSocketReadBufSize = 4096
 
 // WebSocketWriteBufSize is a parameter that is used for WebSocket Upgrader
-// https://github.com/gorilla/websocket/blob/master/server.go#L230
+// https://github.com/dhx71/websocket/blob/master/server.go#L230
 var WebSocketWriteBufSize = 4096
 
 func (h *handler) sockjsWebsocket(rw http.ResponseWriter, req *http.Request) {

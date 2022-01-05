@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 func TestHandler_WebSocketHandshakeError(t *testing.T) {

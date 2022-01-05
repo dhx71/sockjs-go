@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 func (h *handler) rawWebsocket(rw http.ResponseWriter, req *http.Request) {

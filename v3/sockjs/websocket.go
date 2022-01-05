@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dhx71/websocket"
 )
 
 func (h *Handler) sockjsWebsocket(rw http.ResponseWriter, req *http.Request) {
